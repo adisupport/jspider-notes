@@ -28,3 +28,12 @@ It a 2 step process
 1. Compilation  
 	Compilation is the process of converting one language in to other language
 2. Interpretation  
+	Interpretation is the process of coverting intermediate code to low level code.
+
+```mermaid
+flowchart LR;
+A[Source Code \n or \n High Level Code] --> B{Compile} --> C[Byte Code \n or \n Intermediate Level Code];
+
+D[Byte Code \n or \n Intermediate Level Code] --> E{Interpretated by JVM \n exectue  line by line} --> F[on machine];
+```
+
