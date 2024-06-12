@@ -1,17 +1,34 @@
-# Welcome to MkDocs
+# What is a Application?
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Application is Collection of Programs.
+The goal of Application is to perform some specific tasks.
 
-## Commands
+#### Type of Applications
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+1. Standalone Applications.
+	Standalone Application is a type of application where the access is limited ,it doesn't depend upon internet.
+	- Standalone Application that can execute directly on machine.
+	Examples: [Notepad, Chrome, JVM]
+1. Web Applications
+	Web Application is a type of Application where the access is not limited and it depends upon internet.
+	- To execute Web Application we need intermediator Platfroms like Browsers.
+	Examples:[Flipkart, Netflix, Google Search] 
 
-## Project layout
+# Layer of Web Applications
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Web Application Consists of 3 Layer
+- Frontend
+	This layer is responsible for looks and appearance of the Application and it consist of Presentation Logic, Which Provide User Interface(UI).
+- Backend
+	This layer is responsible for working/behaviour of application and it consist of business logic, which provide functionalities to the applications.
+- Database
+	This layer is responsible for storing the user data and it consist of persistence logic which provides functionalities for data operations.
+	That is CRUD Operation
+	C: Create
+	R: Read
+	U: Update
+	D: Delete
+
+# Common Architecture of Web Application
+
+
