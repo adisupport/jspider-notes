@@ -3,7 +3,7 @@
 
 
 ###Schema
-![[WhatsApp Image 2024-01-25 at 18.39.22_3e975a25.jpg]]
+![[Pasted image 20240125203848.png]]
 
 
 ```Java
@@ -94,12 +94,12 @@ class Student extends User{
 
 
 
-![[Pasted image 20240125190203.png]]
+![[public/Pasted image 20240125190203.png]]
 
 
 > DB Snapshot
 >
-![[Pasted image 20240125205748.png]] 
+![[public/Pasted image 20240125205748.png]] 
 
 >[!note] Point To Remember
 >1. This strategy should use in when parent is abstract class or object/table of Parent class is not required. 
@@ -149,7 +149,7 @@ class Students extends User{
 
 # Table Per Class
 
-![[Pasted image 20240125205919.png]]
+![[public/Pasted image 20240125205919.png]]
 Same as Mapped Supper Class But Table of Parent Class also Created.
 
 
@@ -164,7 +164,7 @@ Same as Mapped Supper Class But Table of Parent Class also Created.
 
 # Single Table
 
-![[Pasted image 20240125205031.png]]
+![[public/Pasted image 20240125205031.png]]
 
 
 ```Java

@@ -5,4 +5,4 @@
 
 
 ```
-![[Pasted image 20240220133606.png]]
+![[public/Pasted image 20240220133606.png]]
