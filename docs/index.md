@@ -5,11 +5,11 @@ The goal of application is to perform some specific tasks.
 
 ## Type of Applications
 
-1. Standalone Applications.  
+1. <b>Standalone Applications.</b>  
 	Standalone Application is a type of application where the access is limited ,it doesn't depend upon internet.  
 	- Standalone Application that can execute directly on machine.  
 	Examples: [Notepad, Chrome, JVM]  
-2. Web Applications  
+2. <b>Web Applications</b>  
 	Web Application is a type of Application where the access is not limited and it depends upon internet.  
 	- To execute Web Application we need intermediator Platfroms like Browsers.  
 	Examples:[Flipkart, Netflix, Google Search] 
@@ -34,5 +34,3 @@ Web Application Consists of 3 Layer
 	D: Delete  
 
 ## Common Architecture of Web Application
-
-
