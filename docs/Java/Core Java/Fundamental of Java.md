@@ -122,19 +122,19 @@ class ClassName
 any name which is used in a program can be called as identifiers.  
 ### Rule for identifiers
 1. identifiers cannot start  with a number.  
-	~~class 15ProMax~~ ❌  
+	class 15ProMax ❌  
 	class iPhone15pro ✔️  
 2. identifier cannot have space.
-	~~int S23 Ultra~~ ❌  
+	int S23 Ultra ❌  
 	class S23Ultra ✔️  
 3. identifier cannot have special character except $, _
-	A. ~~class java-fs~~ ❌  
-	B. ~~class Java.10.30~~ ❌  
+	A. class java-fs ❌  
+	B. class Java.10.30 ❌  
 	C. class $India ✔️  
 4. identifier cannot be keywords
-	A. ~~class public~~ ❌  
+	A. class public❌  
 	B. class Class ✔️  
-	C. ~~class static~~ ❌  
+	C. class static ❌  
 5. no restriction on upper and lower case.
 	class bike ✔️  
 	class Employee ✔️   
