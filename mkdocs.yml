@@ -2,8 +2,15 @@ site_name: Java Full Stack
 theme:
   name: material
 markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - callouts

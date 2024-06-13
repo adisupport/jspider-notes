@@ -99,25 +99,25 @@ class ClassName
 }
 ```
 
->[!Interview Question]
->1. <b>Is main method mandatory for Java program?</b>
->	Main method is not mandatory for java program but it is necessary at the time of execution because main method will act as starting point for execution and it controls the program execution flow.
->2. <b>Can we define more than one main method?</b>
+>[!Note]Interview Questions  
+>1. <b>Is main method mandatory for Java program?</b>  
+>	Main method is not mandatory for java program but it is necessary at the time of execution because main method will act as starting point for execution and it controls the program execution flow.  
+>2. <b>Can we define more than one main method?</b>  
 >	According to the Concepts of method overloading it is possible to define more than one main method but we need to follow overloading rules 
 >	that is same name but signature of method should be different.
 >3. 
->	```java
->	class ClassName
->	{
->		static public void main(String [ ] args){
->			// instuctions
->		}
+>```java 
+>class ClassName
+>{
+>	static public void main(String[] args){
+>		//instructions
 >	}
->	```
->	It is possible to interchange static and public keyword with respect to main method because java doesn't define specific order for access specifier and access modifiers
+>}
+>```
+>	***It is possible to interchange static and public keyword*** with respect to main method because
+>	java doesn't define **specific order** for access specifier and access modifiers.  
 > 
-
-## identifiers 
+## Identifiers 
 
 any name which is used in a program can be called as identifiers.  
 ### Rule for identifiers
@@ -139,7 +139,7 @@ any name which is used in a program can be called as identifiers.
 	class bike ✔️  
 	class Employee ✔️   
 	
->[!Good Practice for Naming Conventions]
+>[!note]Good Practice for Naming Conventions
 >```mermaid
 >graph LR
 >
