@@ -1,4 +1,5 @@
-# Core Java
+# Fundamental of Java
+
 1. What is Java?  
 	Java is Programing language where language is a medium which is need for communication.  
 	Programming Language is needed in Order to Communicate with Computers or Machines.
@@ -63,12 +64,12 @@ J[Java Program] --> F[Mobile Platforms];
 ![Keywords of Java](https://i0.wp.com/techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/06/List-of-Java-Keywords.jpg?resize=520%2C306&ssl=1)
 
 Keywords are basically a collection of predefine words where every keywords is unique(different) from one another.  
-Without keywords we can't write any java program.  
-keywords will help us building java programs also they help us in providing the program structure.  
+
+Without keywords we can't write any java program. Keywords will help us building java programs also they help us in providing the program structure.  
+
 Java supports single purpose keyword as well as multiple purpose keywords.  
+
 All the keywords in java has to be in lower case.  
-
-
 ## Syntax and Structure of java programs
 
 Java is class based programing language.  
@@ -120,23 +121,23 @@ class ClassName
 
 any name which is used in a program can be called as identifiers.  
 ### Rule for identifiers
-1. identifiers cannot start  with a number.
-	~~class 15ProMax~~ ❌
-	class iPhone15pro ✔️
+1. identifiers cannot start  with a number.  
+	~~class 15ProMax~~ ❌  
+	class iPhone15pro ✔️  
 2. identifier cannot have space.
-	~~int S23 Ultra~~ ❌
-	class S23Ultra ✔️
+	~~int S23 Ultra~~ ❌  
+	class S23Ultra ✔️  
 3. identifier cannot have special character except $, _
-	A. ~~class java-fs~~ ❌
-	B. ~~class Java.10.30~~ ❌
-	C. class $India ✔️
+	A. ~~class java-fs~~ ❌  
+	B. ~~class Java.10.30~~ ❌  
+	C. class $India ✔️  
 4. identifier cannot be keywords
-	A. ~~class public~~ ❌
-	B. class Class ✔️
-	C. ~~class static~~ ❌
+	A. ~~class public~~ ❌  
+	B. class Class ✔️  
+	C. ~~class static~~ ❌  
 5. no restriction on upper and lower case.
-	class bike ✔️
-	class Employee ✔️ 
+	class bike ✔️  
+	class Employee ✔️   
 	
 >[!Good Practice for Naming Conventions]
 >```mermaid
